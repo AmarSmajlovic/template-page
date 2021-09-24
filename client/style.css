@@ -1,0 +1,60 @@
+/* SCSS HEX */
+/* SCSS HSL */
+/* SCSS RGB */
+/* SCSS Gradient */
+Download * {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#container nav {
+  background-color: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  height: 70px;
+  font-size: 1.3em;
+}
+
+#container nav .menu-list {
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0;
+}
+
+#container nav .menu-list a:hover {
+  border-bottom: 1px solid #8ecae6;
+}
+
+#container nav a {
+  text-decoration: none;
+  padding: 10px 22px;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+#container nav a span {
+  color: #023047;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#container nav a span:hover {
+  opacity: 0.6;
+}
+
+#container nav .icons {
+  color: #023047;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#container nav .icons .icon:hover {
+  color: #8ecae6;
+}
+/*# sourceMappingURL=style.css.map */

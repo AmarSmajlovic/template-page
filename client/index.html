@@ -10,8 +10,31 @@
     <title>Test Project</title>
 </head>
 <body>
-    <h1>test</h1>
-    <button class="btn btn-primary"><i class="fas fa-adjust"></i></button>
+   <div id="container">
+       <!-- Navigation -->
+       <nav class="fixed-top p-0">
+        <div class="content d-flex flex-row align-items-center justify-content-between">
+            <ul class="menu-list" >
+                <li><a href="#home"><span>HOME</span></a></li>
+                <li><a href="#band"><span>BAND</span></a></li>
+                <li><a href="#tour"><span>TOUR</span></a></li>
+                <li><a href="#contact"><span>CONTACT</span></a></li>      
+            </ul>
+            <!--responsive hamburger navigacija-->
+            <div id="hamburger" class="none">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+            <div class="icons">
+                <i id="search" class="m-1 icon fas fa-search"></i>
+                <i class="m-1 icon fas fa-shopping-cart"></i>
+                <i class="m-1 icon fas fa-user"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation -->
+   </div>
 </body>
 <script src="script.js"></script>
 </html>
