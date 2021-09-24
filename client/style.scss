@@ -158,3 +158,31 @@ main {
     z-index: -1;
   }
 }
+
+//Logic for navigation animation on scroll
+nav.scroll {
+  height: 50px;
+  background-color: white;
+  transition: 0.4s;
+  a {
+    span {
+      color: black;
+      transition: 0.2s;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+  .icons {
+    .icon {
+      color: black;
+      transition: 0.5s;
+      &:hover {
+        color: red;
+      }
+    }
+  }
+  #hamburger {
+    color: #b81568;
+  }
+}

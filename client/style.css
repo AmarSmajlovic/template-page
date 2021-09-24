@@ -81,4 +81,35 @@ main .video {
   bottom: 0;
   z-index: -1;
 }
+
+nav.scroll {
+  height: 50px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+nav.scroll a span {
+  color: black;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+nav.scroll a span:hover {
+  opacity: 0.6;
+}
+
+nav.scroll .icons .icon {
+  color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav.scroll .icons .icon:hover {
+  color: red;
+}
+
+nav.scroll #hamburger {
+  color: #b81568;
+}
 /*# sourceMappingURL=style.css.map */
