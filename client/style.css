@@ -54,7 +54,31 @@ Download * {
   transition: 0.5s;
 }
 
+#container nav .icons .icon {
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
 #container nav .icons .icon:hover {
   color: #8ecae6;
+}
+
+main {
+  z-index: 999;
+  max-width: 100%;
+  height: 100vh;
+}
+
+main .video {
+  width: 100vw;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 /*# sourceMappingURL=style.css.map */
