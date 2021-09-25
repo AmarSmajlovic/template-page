@@ -191,8 +191,15 @@ nav.scroll {
 .ticket {
   background-color: white;
   width: 17rem;
+  padding: 0;
+  margin: 10px;
+  border-radius: 10px;
   img {
     max-width: 100%;
     height: auto;
   }
+}
+
+#airline-tickets {
+  background-color: #8ecae6ff;
 }
