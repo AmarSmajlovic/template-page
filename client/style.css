@@ -14,7 +14,7 @@ Download * {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   height: 70px;
-  font-size: 1.3em;
+  font-size: 1.05em;
 }
 
 #container nav .menu-list {
@@ -52,6 +52,7 @@ Download * {
   color: #023047;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  margin-right: 50px;
 }
 
 #container nav .icons .icon {
@@ -90,7 +91,7 @@ nav.scroll {
 }
 
 nav.scroll a span {
-  color: black;
+  color: #023047;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
@@ -100,16 +101,26 @@ nav.scroll a span:hover {
 }
 
 nav.scroll .icons .icon {
-  color: black;
+  color: #023047;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 nav.scroll .icons .icon:hover {
-  color: red;
+  color: #8ecae6;
 }
 
 nav.scroll #hamburger {
   color: #b81568;
+}
+
+.ticket {
+  background-color: white;
+  width: 17rem;
+}
+
+.ticket img {
+  max-width: 100%;
+  height: auto;
 }
 /*# sourceMappingURL=style.css.map */
